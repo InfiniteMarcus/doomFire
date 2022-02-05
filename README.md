@@ -4,7 +4,7 @@ Este projeto é baseado em dois vídeos feitos pelo canal [Filipe Deschamps](htt
 
 A partir disso, foram aplicadas algumas correções de design, principalmente CSS, e algumas modificações no algoritmo, como opções novas de cores.
 
-É possível testar o projeto a partir [deste link](https://infinitemarcus.github.io/doomfire/).
+É possível testar o projeto a partir [deste link](https://infinitemarcus.github.io/doomFire/).
 
 ## Alterações
 
