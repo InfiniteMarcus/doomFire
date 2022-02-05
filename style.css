@@ -1,0 +1,66 @@
+html, body, main {
+    background-color: #87abaf;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: monospace;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.9;
+    background-color: rgb(190, 190, 190);
+}
+
+.interface {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.intro {
+    margin-bottom: 35px;
+}
+
+.fire {
+    position: relative;
+}
+
+.fire-interface {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.canvas, .canvas-grid {
+    border: 1px solid #000;
+    display: block;
+    margin: auto;
+    width: 240px;
+    image-rendering: pixelated;
+}
+
+.canvas-grid {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.margin, .options {
+    font-size: 17px;
+    margin: 15px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOOM fire</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="https://external-preview.redd.it/ZNohmd_iYNHWA8ZXIClRbNcJy49jvMzsrycj9B4NRWk.png?auto=webp&s=2de88f0aeae67b70ac866e376540a38c1d517fd6"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <main class="interface">
+            <h1 class="intro">
+                Minha versão do efeito de fogo do jogo DOOM <br><a href="https://github.com/Infinitemarcus" target="_blank">@Infinitemarcus</a>
+            </h1>
+                
+            <div class="fire-interface">
+                <div class="fire">
+                    <canvas class="canvas" id="fireCanvas" style="z-index: 0;"></canvas>
+                    <canvas class="canvas-grid" id="grid" style="z-index: 1;"></canvas>
+                </div> 
+                                    
+                <div class="options">
+                    <h3>Opções:</h3>
+                    <div class="margin">
+                        Nível:
+                        <button onclick="decreaseFireSource()">-</button>
+                        <button onclick="destroyFireSource()">Min</button>
+                        <button onclick="createFireSource()">Max</button>
+                        <button onclick="increaseFireSource()">+</button>
+                    </div>
+                        
+                    <div class="margin">
+                        Velocidade:
+                        <button onclick="increaseIntervalTime()">-</button>
+                        <button onclick="normalizeIntervalTime()">Velocidade normal</button>
+                        <button onclick="decreaseIntervalTime()">+</button>
+                    </div>
+        
+                    <div class="margin">
+                        Outros:
+                        <button onclick="fireWind()">Direção do fogo</button>
+                        <button onclick="gridChange()">Grid</button>
+                        <button onclick="changeColor()">Mudar cor</button>
+                    </div>
+                </div>
+            </div> 
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
